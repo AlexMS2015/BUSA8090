@@ -1,1 +1,0 @@
-mysql -u awkologist -p compbiol -e 'SELECT a.gene, a.function, e.expr_value FROM annotation a INNER JOIN expression e ON a.gene=e.gene'
