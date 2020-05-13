@@ -1,0 +1,3 @@
+roles <- as.factor(get.vertex.attribute(Bali, 'role')) # get the terrorist roles
+# ggnet2 is an extension to ggplo2 and you simply specify the network name (BaliNet) and the label. The ‘labs’ function is from ggplot2:
+ggnet2(BaliNet, label=roles) + labs(title = "Bali Terrorist Roles - Network")
